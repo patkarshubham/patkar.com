@@ -44,8 +44,8 @@ export default function GeneratorHeader({
                   <Image
                     src="/images/logo-white.svg"
                     className="hidden dark:block"
-                    width={180}
-                    height={30}
+                    width={50}
+                    height={25}
                     alt="patkars.com"
                   />
                 </Link>

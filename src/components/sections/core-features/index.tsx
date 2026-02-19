@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { CORE_FEATURES } from "./data";
 
 export function CoreFeatures() {
@@ -11,36 +10,33 @@ export function CoreFeatures() {
           </h2>
 
           <p className="max-w-xl mx-auto leading-6 text-gray-500 dark:text-gray-400">
-            Unlock the Potential of Innovation. Discover the Advanced AI Tools
-            Transforming Your Ideas into Reality with Unmatched Precision and
-            Intelligence.
+            Unlock the Potential of Innovation...
           </p>
         </div>
 
         <div className="grid sm:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
-          {CORE_FEATURES.map((feature) => (
-            <div
-              key={feature.title}
-              className="bg-white p-9 border border-gray-200 dark:bg-white/5 dark:border-white/3 rounded-[20px] shadow-[0px_30px_50px_-32px_rgba(107,110,148,0.04)]"
-            >
-              <div className="core-feature-icon mb-9">
-                <Image
-                  src={feature.iconUrl}
-                  alt={feature.title}
-                  role="presentation"
-                  width={40}
-                  height={40}
-                />
-              </div>
+          {CORE_FEATURES.map((feature) => {
+            const Icon = feature.icon; // 👈 Important
 
-              <h3 className="mb-4 text-gray-800 dark:text-white/90 font-bold text-xl md:text-2xl">
-                {feature.title}
-              </h3>
-              <p className="text-gray-500 dark:text-gray-400">
-                {feature.description}
-              </p>
-            </div>
-          ))}
+            return (
+              <div
+                key={feature.title}
+                className="bg-white p-9 border border-gray-200 dark:bg-white/5 dark:border-white/3 rounded-[20px] shadow-[0px_30px_50px_-32px_rgba(107,110,148,0.04)]"
+              >
+                <div className="mb-9 text-primary text-4xl">
+                  <Icon />
+                </div>
+
+                <h3 className="mb-4 text-gray-800 dark:text-white/90 font-bold text-xl md:text-2xl">
+                  {feature.title}
+                </h3>
+
+                <p className="text-gray-500 dark:text-gray-400">
+                  {feature.description}
+                </p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>

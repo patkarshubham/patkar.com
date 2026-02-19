@@ -14,11 +14,11 @@ export default function HeroSection() {
               <Subheading text="Most Powerful AI Tools at One Place" />
 
               <h1 className="text-gray-700 mx-auto font-bold mb-4 text-4xl sm:text-[50px] dark:text-white/90 sm:leading-[64px] max-w-[700px]">
-                Transform Ideas into Reality with Intelligent AI Tools
+                Transform Your Business with AI-Powered Digital Solutions
               </h1>
               <p className="max-w-[537px] text-center mx-auto dark:text-gray-400 text-gray-500 text-base">
-                Unleash the Power of Artificial Intelligence to Streamline Your
-                Workflow, Boost Productivity, and Redefine Success.
+                We design intelligent websites, automate operations with AI, 
+                and drive measurable growth through data-driven marketing strategies.
               </p>
 
               <div className="mt-9 flex sm:flex-row flex-col gap-3 relative z-30 items-center justify-center">

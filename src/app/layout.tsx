@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     template: '%s | patkars.com',
   },
   description:
-    'patkars.com – Transform ideas into reality with intelligent AI tools. Streamline your workflow, boost productivity, and redefine success.',
+    'patkars.com – Transform Your Business with AI-Powered Digital Solutions. Streamline your workflow, boost productivity, and redefine success.',
   keywords: ['patkars.com', 'AI tools', 'SaaS', 'productivity'],
   authors: [{ name: 'patkars.com', url: siteUrl }],
   creator: 'patkars.com',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: 'patkars.com',
     title: 'patkars.com – AI-Powered Tools & SaaS',
     description:
-      'Transform ideas into reality with intelligent AI tools. Streamline your workflow, boost productivity, and redefine success.',
+      'Transform Your Business with AI-Powered Digital Solutions. Streamline your workflow, boost productivity, and redefine success.',
     images: [
       {
         url: '/images/hero/hero-img.jpg',
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'patkars.com – AI-Powered Tools & SaaS',
     description:
-      'Transform ideas into reality with intelligent AI tools. Streamline your workflow, boost productivity, and redefine success.',
+      'Transform Your Business with AI-Powered Digital Solutions. Streamline your workflow, boost productivity, and redefine success.',
     images: ['/images/hero/hero-img.jpg'],
   },
   robots: {
